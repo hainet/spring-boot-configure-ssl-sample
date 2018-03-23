@@ -1,0 +1,11 @@
+server:
+  port: 8443
+  ssl:
+    key-store-type: PKCS12
+    key-store: classpath:keystore.p12
+    key-alias: kujaku
+    key-store-password: kujaku
+
+# (Optional) Spring Security
+# security:
+#   require-ssl: true
